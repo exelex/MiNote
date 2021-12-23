@@ -17,3 +17,4 @@
 - TableView with swipe actions
 
 
+![Welcome](https://github.com/exelex/minote/blob/main/minote1.jpg)
