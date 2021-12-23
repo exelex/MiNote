@@ -19,4 +19,4 @@
 
 ![Welcome](https://github.com/exelex/minote/blob/main/minote11.jpg)
 
-![Home](https://github.com/exelex/minote/blob/main/minote2.jpg)
+![Home](https://github.com/exelex/minote/blob/main/minote22.jpg)
