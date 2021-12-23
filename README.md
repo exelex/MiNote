@@ -18,3 +18,5 @@
 
 
 ![Welcome](https://github.com/exelex/minote/blob/main/minote1.jpg)
+
+![Home](https://github.com/exelex/minote/blob/main/minote2.jpg)
