@@ -21,7 +21,6 @@ class NewNoteViewController: UIViewController, UITextViewDelegate, UITextFieldDe
     var delegateHome: NewNoteViewControllerDelegate?
 
     func newNoteCallback() {
-        print(delegateHome)
         delegateHome?.updateNoteList()
     }
     
@@ -30,18 +29,12 @@ class NewNoteViewController: UIViewController, UITextViewDelegate, UITextFieldDe
         
         self.userUid = Auth.auth().currentUser!.uid
         self.loggedInUser = Auth.auth().currentUser
-        newNoteTextView.textContainerInset = UIEdgeInsets(top: 30, left: 20, bottom: 20, right: 20)
-        newNoteTextView.text = "Add note text"
-    }
-    
-    
-    func textViewDidBeginEditing(_ textView: UITextView) {
+        newNoteTextView.textContainerInset = UIEdgeInsets(top: 13, left: 10, bottom: 13, right: 10)
+        newNoteTextView.layer.borderWidth = 1
+        newNoteTextView.layer.borderColor = #colorLiteral(red: 0.6000000238, green: 0.6000000238, blue: 0.6000000238, alpha: 1)
         
-        if(newNoteTextView.textColor == UIColor.lightGray)
-        {
-            newNoteTextView.text = ""
-            newNoteTextView.textColor = UIColor.black
-        }
+        newNoteTitleField.layer.borderWidth = 1
+        newNoteTitleField.layer.borderColor = #colorLiteral(red: 0.6000000238, green: 0.6000000238, blue: 0.6000000238, alpha: 1)
     }
     
     

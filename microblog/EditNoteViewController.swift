@@ -31,10 +31,17 @@ class EditNoteViewController: UIViewController, UITextViewDelegate, UITextFieldD
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        self.editNoteTitleField.text = paramTitle
+        self.editNoteTextView.text = paramText
+        
         self.userUid = Auth.auth().currentUser!.uid
         self.loggedInUser = Auth.auth().currentUser
-        editNoteTextView.textContainerInset = UIEdgeInsets(top: 30, left: 20, bottom: 20, right: 20)
-        editNoteTextView.text = "Add note text"
+        editNoteTextView.textContainerInset = UIEdgeInsets(top: 13, left: 10, bottom: 13, right: 10)
+        editNoteTextView.layer.borderWidth = 1
+        editNoteTextView.layer.borderColor = #colorLiteral(red: 0.6000000238, green: 0.6000000238, blue: 0.6000000238, alpha: 1)
+        
+        editNoteTitleField.layer.borderWidth = 1
+        editNoteTitleField.layer.borderColor = #colorLiteral(red: 0.6000000238, green: 0.6000000238, blue: 0.6000000238, alpha: 1)
     }
     
     @IBAction func saveBtnTapped(_ sender: UIBarButtonItem) {

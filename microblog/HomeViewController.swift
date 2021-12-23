@@ -11,7 +11,6 @@ import FirebaseAuth
 
 class HomeViewController: UIViewController, UITableViewDataSource, UITableViewDelegate, EditNoteViewControllerDelegate, NewNoteViewControllerDelegate {
     
-    @IBOutlet weak var activityLoading: UIActivityIndicatorView!
     @IBOutlet weak var homeTableView: UITableView!
     
     
@@ -31,26 +30,6 @@ class HomeViewController: UIViewController, UITableViewDataSource, UITableViewDe
         self.loggedInUserId = Auth.auth().currentUser!.uid
         
         updateNoteList()
-        
-//        self.databaseRef.child("user_profiles").child(self.loggedInUserId!).observeSingleEvent(of: .value, with: {( snapshot: DataSnapshot ) in
-//
-//            self.loggedInUserData = snapshot
-//
-//            self.databaseRef.child("notes/\(self.loggedInUserId!)").observe(.childAdded, with: {
-//                (snapshot: DataSnapshot) in
-//
-//                let key = snapshot.key
-//                let snapshot = snapshot.value as? NSDictionary
-//                snapshot?.setValue(key, forKey: "key")
-//
-//                self.notes.append(snapshot!)
-//
-//                self.homeTableView.insertRows(at: [IndexPath(row:0,section:0)], with: UITableView.RowAnimation.automatic)
-//                self.activityLoading.stopAnimating()
-//            }) {(error) in
-//                print(error.localizedDescription)
-//            }
-//        })
     }
     
     override var preferredStatusBarStyle: UIStatusBarStyle {
@@ -77,7 +56,7 @@ class HomeViewController: UIViewController, UITableViewDataSource, UITableViewDe
     }
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 80
+        return 88
     }
     
     func tableView(_ tableView: UITableView, trailingSwipeActionsConfigurationForRowAt indexPath: IndexPath) -> UISwipeActionsConfiguration? {
@@ -100,8 +79,6 @@ class HomeViewController: UIViewController, UITableViewDataSource, UITableViewDe
         let actionEdit = UIContextualAction(style: .destructive, title: "Edit") {  (contextualAction, view, boolValue) in
             if let key = self.notes[(self.notes.count - 1) - (indexPath.row)]["key"] as? String {
                 let storyboard = UIStoryboard(name: "Main", bundle: nil)
-//                guard let editNoteViewController = storyboard.instantiateViewController(identifier: "EditNoteViewController") as? EditNoteViewController else { return }
-//                editNoteViewController.paramKey = key
                 
                 let dest = storyboard.instantiateViewController(withIdentifier: "EditNoteViewController") as! EditNoteViewController
                 
@@ -127,8 +104,6 @@ class HomeViewController: UIViewController, UITableViewDataSource, UITableViewDe
         self.notes = [NSDictionary]()
         self.homeTableView.reloadData()
         
-        print("update")
-        
         self.databaseRef.child("user_profiles").child(self.loggedInUserId!).observeSingleEvent(of: .value, with: {( snapshot: DataSnapshot ) in
             
             self.loggedInUserData = snapshot
@@ -143,7 +118,6 @@ class HomeViewController: UIViewController, UITableViewDataSource, UITableViewDe
                 self.notes.append(snapshot!)
                 
                 self.homeTableView.insertRows(at: [IndexPath(row:0,section:0)], with: UITableView.RowAnimation.automatic)
-                self.activityLoading.stopAnimating()
             }) {(error) in
                 print(error.localizedDescription)
             }

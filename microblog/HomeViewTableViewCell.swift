@@ -10,21 +10,16 @@ import UIKit
 class HomeViewTableViewCell: UITableViewCell {
     
     @IBOutlet weak var titleLabel: UILabel!
-    @IBOutlet weak var textView: UITextView!
+    @IBOutlet weak var noteLabel: UILabel!
     
-    override public func awakeFromNib() {
-        super.awakeFromNib()
-    }
-
+    
     public func configure (title: String, text: String) {
-        self.textView.text = text
         self.titleLabel.text = title
+        self.noteLabel.text = text
     }
     
     override func layoutSubviews() {
         super.layoutSubviews()
-        
-        textView.textContainer.lineFragmentPadding = 0
      }
 
 }
