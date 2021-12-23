@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>661870968239-tsrrgj25akopujqod3q0k5pasn42mccu.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.661870968239-tsrrgj25akopujqod3q0k5pasn42mccu</string>
+	<key>API_KEY</key>
+	<string>AIzaSyA1o8a01Kldu6CK9orqIxLcJgLH8zL9v-0</string>
+	<key>GCM_SENDER_ID</key>
+	<string>661870968239</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>exelex.microblog</string>
+	<key>PROJECT_ID</key>
+	<string>microblog-78da1</string>
+	<key>STORAGE_BUCKET</key>
+	<string>microblog-78da1.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:661870968239:ios:e99a53cbdade377bc8c35a</string>
+	<key>DATABASE_URL</key>
+	<string>https://microblog-78da1-default-rtdb.firebaseio.com</string>
+</dict>
+</plist>

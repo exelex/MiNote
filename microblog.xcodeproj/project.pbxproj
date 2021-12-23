@@ -3,27 +3,47 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6603325B7043BF9F5811AD41 /* Pods_microblog.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0AEFBBE5B67BAB845463757 /* Pods_microblog.framework */; };
+		D04A5B82277373680091C398 /* EditNoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04A5B81277373680091C398 /* EditNoteViewController.swift */; };
+		D04B40352728B2CC000058A2 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04B40342728B2CC000058A2 /* LoginViewController.swift */; };
+		D04B40382728BBDB000058A2 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04B40372728BBDB000058A2 /* HomeViewController.swift */; };
+		D04BB3EF276A6C380034794E /* NewNoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04BB3EE276A6C380034794E /* NewNoteViewController.swift */; };
+		D053659B270284370078DA83 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D053659A270284370078DA83 /* SignUpViewController.swift */; };
+		D053659E270284530078DA83 /* HandleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D053659D270284530078DA83 /* HandleViewController.swift */; };
+		D05404F2272DDC22002DAFAC /* HomeViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05404F1272DDC22002DAFAC /* HomeViewTableViewCell.swift */; };
 		D057E3C32700761C005D72F2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D057E3C22700761C005D72F2 /* AppDelegate.swift */; };
 		D057E3C52700761C005D72F2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D057E3C42700761C005D72F2 /* SceneDelegate.swift */; };
-		D057E3C72700761C005D72F2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D057E3C62700761C005D72F2 /* ViewController.swift */; };
+		D057E3C72700761C005D72F2 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D057E3C62700761C005D72F2 /* WelcomeViewController.swift */; };
 		D057E3CA2700761C005D72F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D057E3C82700761C005D72F2 /* Main.storyboard */; };
 		D057E3CC2700761E005D72F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D057E3CB2700761E005D72F2 /* Assets.xcassets */; };
 		D057E3CF2700761E005D72F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D057E3CD2700761E005D72F2 /* LaunchScreen.storyboard */; };
+		D057E3D827007A35005D72F2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D057E3D727007A35005D72F2 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		51F6FE52F50ED38F658FECD6 /* Pods-microblog.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-microblog.debug.xcconfig"; path = "Target Support Files/Pods-microblog/Pods-microblog.debug.xcconfig"; sourceTree = "<group>"; };
+		B0AEFBBE5B67BAB845463757 /* Pods_microblog.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_microblog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B544C984E00B08CFABFD8F79 /* Pods-microblog.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-microblog.release.xcconfig"; path = "Target Support Files/Pods-microblog/Pods-microblog.release.xcconfig"; sourceTree = "<group>"; };
+		D04A5B81277373680091C398 /* EditNoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditNoteViewController.swift; sourceTree = "<group>"; };
+		D04B40342728B2CC000058A2 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		D04B40372728BBDB000058A2 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		D04BB3EE276A6C380034794E /* NewNoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewNoteViewController.swift; sourceTree = "<group>"; };
+		D053659A270284370078DA83 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		D053659D270284530078DA83 /* HandleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandleViewController.swift; sourceTree = "<group>"; };
+		D05404F1272DDC22002DAFAC /* HomeViewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewTableViewCell.swift; sourceTree = "<group>"; };
 		D057E3BF2700761C005D72F2 /* microblog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = microblog.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D057E3C22700761C005D72F2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D057E3C42700761C005D72F2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D057E3C62700761C005D72F2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D057E3C62700761C005D72F2 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		D057E3C92700761C005D72F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D057E3CB2700761E005D72F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D057E3CE2700761E005D72F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D057E3D02700761E005D72F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D057E3D727007A35005D72F2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +51,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6603325B7043BF9F5811AD41 /* Pods_microblog.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4B2257D756AF28D5A2632853 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B0AEFBBE5B67BAB845463757 /* Pods_microblog.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		66F45713EAF94569908E1069 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				51F6FE52F50ED38F658FECD6 /* Pods-microblog.debug.xcconfig */,
+				B544C984E00B08CFABFD8F79 /* Pods-microblog.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		D057E3B62700761C005D72F2 = {
 			isa = PBXGroup;
 			children = (
 				D057E3C12700761C005D72F2 /* microblog */,
 				D057E3C02700761C005D72F2 /* Products */,
+				66F45713EAF94569908E1069 /* Pods */,
+				4B2257D756AF28D5A2632853 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +96,47 @@
 		D057E3C12700761C005D72F2 /* microblog */ = {
 			isa = PBXGroup;
 			children = (
-				D057E3C22700761C005D72F2 /* AppDelegate.swift */,
-				D057E3C42700761C005D72F2 /* SceneDelegate.swift */,
-				D057E3C62700761C005D72F2 /* ViewController.swift */,
+				D057E3DC27007B2B005D72F2 /* Models */,
+				D057E3DB27007B22005D72F2 /* Controllers */,
+				D057E3DA27007A48005D72F2 /* Supporting */,
+				D057E3C62700761C005D72F2 /* WelcomeViewController.swift */,
 				D057E3C82700761C005D72F2 /* Main.storyboard */,
+				D04A5B81277373680091C398 /* EditNoteViewController.swift */,
+				D04BB3EE276A6C380034794E /* NewNoteViewController.swift */,
+				D05404F1272DDC22002DAFAC /* HomeViewTableViewCell.swift */,
+				D04B40372728BBDB000058A2 /* HomeViewController.swift */,
+				D04B40342728B2CC000058A2 /* LoginViewController.swift */,
+				D053659D270284530078DA83 /* HandleViewController.swift */,
+				D053659A270284370078DA83 /* SignUpViewController.swift */,
 				D057E3CB2700761E005D72F2 /* Assets.xcassets */,
 				D057E3CD2700761E005D72F2 /* LaunchScreen.storyboard */,
 				D057E3D02700761E005D72F2 /* Info.plist */,
 			);
 			path = microblog;
+			sourceTree = "<group>";
+		};
+		D057E3DA27007A48005D72F2 /* Supporting */ = {
+			isa = PBXGroup;
+			children = (
+				D057E3C22700761C005D72F2 /* AppDelegate.swift */,
+				D057E3C42700761C005D72F2 /* SceneDelegate.swift */,
+				D057E3D727007A35005D72F2 /* GoogleService-Info.plist */,
+			);
+			path = Supporting;
+			sourceTree = "<group>";
+		};
+		D057E3DB27007B22005D72F2 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		D057E3DC27007B2B005D72F2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +146,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D057E3D32700761E005D72F2 /* Build configuration list for PBXNativeTarget "microblog" */;
 			buildPhases = (
+				77115CE49504854D3E8F42F1 /* [CP] Check Pods Manifest.lock */,
 				D057E3BB2700761C005D72F2 /* Sources */,
 				D057E3BC2700761C005D72F2 /* Frameworks */,
 				D057E3BD2700761C005D72F2 /* Resources */,
+				EE9ACB96CC8C5C564AC99BF1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,6 +199,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D057E3CF2700761E005D72F2 /* LaunchScreen.storyboard in Resources */,
+				D057E3D827007A35005D72F2 /* GoogleService-Info.plist in Resources */,
 				D057E3CC2700761E005D72F2 /* Assets.xcassets in Resources */,
 				D057E3CA2700761C005D72F2 /* Main.storyboard in Resources */,
 			);
@@ -132,14 +207,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		77115CE49504854D3E8F42F1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-microblog-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EE9ACB96CC8C5C564AC99BF1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-microblog/Pods-microblog-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-microblog/Pods-microblog-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-microblog/Pods-microblog-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D057E3BB2700761C005D72F2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D057E3C72700761C005D72F2 /* ViewController.swift in Sources */,
+				D04B40352728B2CC000058A2 /* LoginViewController.swift in Sources */,
+				D053659E270284530078DA83 /* HandleViewController.swift in Sources */,
+				D057E3C72700761C005D72F2 /* WelcomeViewController.swift in Sources */,
 				D057E3C32700761C005D72F2 /* AppDelegate.swift in Sources */,
+				D053659B270284370078DA83 /* SignUpViewController.swift in Sources */,
+				D05404F2272DDC22002DAFAC /* HomeViewTableViewCell.swift in Sources */,
+				D04B40382728BBDB000058A2 /* HomeViewController.swift in Sources */,
 				D057E3C52700761C005D72F2 /* SceneDelegate.swift in Sources */,
+				D04A5B82277373680091C398 /* EditNoteViewController.swift in Sources */,
+				D04BB3EF276A6C380034794E /* NewNoteViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,7 +340,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -271,7 +395,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -283,12 +407,14 @@
 		};
 		D057E3D42700761E005D72F2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51F6FE52F50ED38F658FECD6 /* Pods-microblog.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = J4Q2H4D999;
 				INFOPLIST_FILE = microblog/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -296,18 +422,20 @@
 				PRODUCT_BUNDLE_IDENTIFIER = exelex.microblog;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		D057E3D52700761E005D72F2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B544C984E00B08CFABFD8F79 /* Pods-microblog.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = J4Q2H4D999;
 				INFOPLIST_FILE = microblog/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -315,7 +443,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = exelex.microblog;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
