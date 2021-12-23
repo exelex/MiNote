@@ -501,22 +501,28 @@
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="88"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="583-WB-cmT">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="583-WB-cmT">
                                                     <rect key="frame" x="16" y="15" width="343" height="17"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="14"/>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Text" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XDy-eA-PxU">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Text" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XDy-eA-PxU">
                                                     <rect key="frame" x="16" y="49" width="343" height="17"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <color key="textColor" red="1" green="1" blue="1" alpha="0.85950877568493156" colorSpace="custom" customColorSpace="displayP3"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
                                             <color key="backgroundColor" red="0.13725608589999999" green="0.13725271820000001" blue="0.13725498320000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <constraints>
+                                                <constraint firstItem="583-WB-cmT" firstAttribute="leading" secondItem="Mbc-zf-Yam" secondAttribute="leadingMargin" id="6oN-fE-6Tc"/>
+                                                <constraint firstItem="XDy-eA-PxU" firstAttribute="top" secondItem="583-WB-cmT" secondAttribute="bottom" constant="17" id="8CL-6n-1n2"/>
+                                                <constraint firstItem="XDy-eA-PxU" firstAttribute="trailing" secondItem="Mbc-zf-Yam" secondAttribute="trailingMargin" id="QOm-qD-bvN"/>
+                                                <constraint firstItem="583-WB-cmT" firstAttribute="top" secondItem="Mbc-zf-Yam" secondAttribute="top" constant="15" id="h3U-Qp-ZHm"/>
+                                                <constraint firstItem="XDy-eA-PxU" firstAttribute="leading" secondItem="Mbc-zf-Yam" secondAttribute="leadingMargin" id="jzw-0M-N4V"/>
+                                                <constraint firstItem="583-WB-cmT" firstAttribute="trailing" secondItem="Mbc-zf-Yam" secondAttribute="trailingMargin" id="yLa-A5-k1p"/>
+                                            </constraints>
                                         </tableViewCellContentView>
                                         <color key="backgroundColor" red="0.13725608589999999" green="0.13725271820000001" blue="0.13725498320000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <inset key="separatorInset" minX="15" minY="0.0" maxX="0.0" maxY="0.0"/>
